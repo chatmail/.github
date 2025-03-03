@@ -24,13 +24,6 @@ Chatmail server deployment, core Rust client and binding developments.
   TLS-, DNS and HTTPS networking, SMTP, IMAP, Mime-parsing and building,
   as well as OpenPGP, Autocrypt and SecureJoin encryption/decryption. 
 
-- [async-imap](/chatmail/async-imap) IMAP implementation in Rust. 
-
-- [async-smtp](/chatmail/async-smtp) SMTP implementation in Rust. 
-
-- [async-native-tls](/chatmail/async-native-tls) TLS implementation in
-  Rust that uses native system libraries (used when RustTLS can not be used). 
-
 - [securejoin](/chatmail/securejoin) securejoin protocols for end-to-end
   encrypted messaging safe against active attacks (MITM attacks). 
 
@@ -40,6 +33,12 @@ Chatmail server deployment, core Rust client and binding developments.
 - [provider-db](/chatmail/provider-db) E-mail provider database
   containing configuration information for use by the core library. 
 
+- [async-imap](/chatmail/async-imap) IMAP client implementation in Rust. 
+
+- [async-smtp](/chatmail/async-smtp) SMTP client implementation in Rust. 
+
+- [async-native-tls](/chatmail/async-native-tls) TLS implementation in
+  Rust that uses native system libraries (used when RustTLS can not be used). 
 
 ## Bindings 
 
@@ -47,3 +46,5 @@ Chatmail server deployment, core Rust client and binding developments.
   with automatic generation of a TypeScript client.
 
 - [rpc-client-go](/chatmail/rpc-client-go) Go bindings for interacting with chatmail-rpc-server 
+
+
