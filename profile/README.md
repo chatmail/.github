@@ -1,8 +1,8 @@
 
-# Chatmail community repositories 
+# Chatmail: modern e-mail server infrastructure and core Rust libraries 
 
-Chatmail infrastructure code for server setup and client-side e-mail protocols and implementations. 
-
+Chatmail infrastructure for automated server setup and 
+Rust core e-mail libraries and protocols for use from apps and bots. 
 
 ## Server templates and setups 
 
@@ -21,19 +21,19 @@ Chatmail infrastructure code for server setup and client-side e-mail protocols a
 
 ## Core library, protocol modeling and documentation
 
-
-- [core](https://github.com/chatmail/core) core Rust library and rpc-server that provides
+- [core Rust library](https://github.com/chatmail/core) and rpc-server that provides
   TLS-, DNS and HTTPS networking, SMTP, IMAP, Mime-parsing and building,
   as well as OpenPGP, Autocrypt and SecureJoin encryption/decryption. 
 
-- [securejoin](https://github.com/chatmail/securejoin) securejoin protocols for end-to-end
+- [securejoin protocol](https://github.com/chatmail/securejoin) for end-to-end
   encrypted messaging safe against active attacks (MITM attacks). 
 
 - [models](https://github.com/chatmail/models) Peer-to-Peer group-membership algorithm
-  with Python and formal TLA+ model simulations. 
+  simulated with Python and formal TLA+ modelling. 
 
 - [provider-db](https://github.com/chatmail/provider-db) E-mail provider database
-  containing configuration information for use by the core library. 
+  containing configuration information for classic e-mail providers 
+  for use by the core library. 
 
 ## Language Bindings for core 
 
