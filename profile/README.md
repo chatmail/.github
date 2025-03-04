@@ -1,8 +1,15 @@
 
-# Chatmail: modern e-mail server infrastructure and core Rust libraries 
+# Chatmail: modern e-mail infrastructure for instant and realtime messaging
 
-Chatmail infrastructure for automated server setup and 
-Rust core e-mail libraries and protocols for use from apps and bots. 
+Chatmail fundamentally modernizes the e-mail system to become fast, reliable and secure
+by providing state-of-the-art server templates and configurations
+and Rust core libraries and bindings for use by a wide range of apps and bots. 
+
+The [core chatmail protocol specification](https://github.com/chatmail/core/blob/main/spec.md)
+describes the protocols used for 1:1 and group instant messaging,
+including [securejoin protocols](https://securejoin.rtfd.io) for key exchange
+to facilitate end-to-end encryption which is safe against server compromise. 
+
 
 ## Server templates and setups 
 
