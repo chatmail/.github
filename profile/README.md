@@ -1,19 +1,28 @@
 
-# Chatmail: modern e-mail infrastructure for instant and realtime messaging
+# Chatmail: secure and fast e-mail infrastructure for all 
 
-Chatmail fundamentally modernizes the e-mail system to become fast, reliable and secure
-by providing state-of-the-art server templates and configurations
-and Rust core libraries and bindings for use by a wide range of apps and bots. 
+Chatmail aims to comprehensively modernize the e-mail system to become fast, reliable and secure. 
 
-The [core chatmail protocol specification](https://github.com/chatmail/core/blob/main/spec.md)
-describes the protocols used for 1:1 and group instant messaging,
-including [securejoin protocols](https://securejoin.rtfd.io) for key exchange
-to facilitate end-to-end encryption which is safe against server compromise. 
+It involves two complementary project areas: 
+
+- the `chatmail/server` template that automatically sets up a minimal
+  e-mail server with battle-tested server components 
+  that are configured to work as *Internet-Scale Message routers* 
+  with *anonymous onboarding* and *interoperable cryptography* to secure all
+  network connectivity between clients and servers;
+
+- the `chatmail/core` a set of peer-side Rust crates that implement the
+  [core chatmail protocol specification](https://github.com/chatmail/core/blob/main/spec.md)
+  and relevant parts of [existing IETF standards](https://github.com/chatmail/core/blob/main/standards.md) to enable a wide range of chat apps and bots 
+  to participate in a globally scaled federated messaging system 
+  without having to care for low level network and encryption protocols. 
+
+Both areas have undergone several independent [security audits](https://delta.chat/en/help#security-audits) and are actively developed. 
 
 
-## Server templates and setups 
+## Server templates for interoperable cryptographically-secured Internet Message routing
 
-- [server](https://github.com/chatmail/server) a template for deploying a minimal and 
+- [server](https://github.com/chatmail/server) is the main template to deploy a minimal and 
   fast e-mail server providing instant onboarding for [chatmail apps and clients](https://support.delta.chat/t/list-of-all-known-client-projects/3059). 
   Compromised of standard Postfix and Dovecot services with "chatmaild" Python modules. 
 
