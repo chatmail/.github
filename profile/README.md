@@ -11,11 +11,11 @@ It involves two complementary project areas:
   with *anonymous onboarding* and *interoperable cryptography* to secure all
   network connectivity between clients and servers;
 
-- the `chatmail/core` a set of peer-side Rust crates that implement the
+- the `chatmail/core` library which implements the 
   [core chatmail protocol specification](https://github.com/chatmail/core/blob/main/spec.md)
-  and relevant parts of [existing IETF standards](https://github.com/chatmail/core/blob/main/standards.md) to enable a wide range of chat apps and bots 
-  to participate in a globally scaled federated messaging system 
-  without having to care for low level network and encryption protocols. 
+  and neccessary parts of [existing IETF standards](https://github.com/chatmail/core/blob/main/standards.md) to enable a wide range of higher level chat apps and bots 
+  to participate in the globally scaled federated Internet Messaging system, 
+  without them having to care for low level network and encryption protocols. 
 
 Both areas have undergone several independent [security audits](https://delta.chat/en/help#security-audits) and are actively developed. 
 
