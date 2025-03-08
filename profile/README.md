@@ -1,3 +1,5 @@
+| [DeltaChat](https://github.com/deltachat) | [DeltaChat Bots](https://github.com/deltachat-bot) | chatmail infrastructure                                | [webxdc: Private Apps](https://github.com/webxdc) | [cosmos](https://cosmos.delta.chat) |
+| ----------------------------------------- | -------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------- | ----------------------------------- |
 
 # Chatmail: secure and fast e-mail infrastructure for all 
 
