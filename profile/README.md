@@ -74,9 +74,8 @@ Both areas have undergone several independent [security audits](https://delta.ch
 
 ## Key 3rd party co-maintained dependencies 
 
-- [mimeparser](https://crates.io/crates/mailparse) A simple and robust
+- [mailparse](https://crates.io/crates/mailparse) A simple and robust
   Rust parser for MIME email messages. 
 
 - [rPGP](https://github.com/rpgp/rpgp) IETF RFC9580 compliant OpenPGP Rust
   implementation with security audits. 
-
