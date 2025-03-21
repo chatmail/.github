@@ -10,8 +10,7 @@ It involves two key complementary project areas:
 
 - [chatmail core Rust library](https://github.com/chatmail/core) serves 
   a higher level chat messaging API and automatically manages 
-  DNS, TLS, HTTPS, SMTP, IMAP, MIME, OpenPGP and [Iroh-based](https://iroh.computer)  
-  Peer-to-Peer realtime messaging,
+  DNS, TLS, HTTPS, SMTP, IMAP, MIME, OpenPGP and [Iroh-based](https://iroh.computer) Peer-to-Peer realtime messaging,
   and includes the [SecureJoin protocol](https://github.com/chatmail/securejoin) 
   for protection against active attacks (MITM attacks). 
   
