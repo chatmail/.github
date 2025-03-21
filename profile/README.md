@@ -1,5 +1,5 @@
 
-# Chatmail: secure and fast e-mail infrastructure for all 
+# Chatmail: secure and instant e-mail infrastructure 
 
 Chatmail aims to comprehensively modernize the e-mail system to become fast, reliable and secure. 
 
