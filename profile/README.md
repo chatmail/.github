@@ -5,12 +5,14 @@ Chatmail aims to comprehensively modernize the e-mail system to become fast, rel
 
 It involves two key complementary project areas: 
 
-- [server](https://github.com/chatmail/server) is the main template to deploy a minimal and 
+- [chatmail server](https://github.com/chatmail/server) is the main template to deploy a minimal and 
   fast e-mail server providing instant onboarding and cryptographically secured interoperability. 
 
-- [core Rust library](https://github.com/chatmail/core) and rpc-server that provides
-  TLS-, DNS and HTTPS networking, SMTP, IMAP, Mime-parsing and building,
-  as well as OpenPGP encryption/decryption based on the [securejoin protocol](https://github.com/chatmail/securejoin) for security against active attacks (MITM attacks). 
-
+- [chatmail core Rust library](https://github.com/chatmail/core) serves 
+  a higher level chat messaging API and automatically manages 
+  DNS, TLS, HTTPS, SMTP, IMAP, MIME, OpenPGP and [Iroh-based](https://iroh.computer)  
+  Peer-to-Peer realtime messaging,
+  and includes the [SecureJoin protocol](https://github.com/chatmail/securejoin) 
+  for protection against active attacks (MITM attacks). 
+  
 Both areas have undergone several independent [security audits and analysis](https://delta.chat/en/help#security-audits) and are actively developed. 
-
