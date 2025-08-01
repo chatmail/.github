@@ -5,7 +5,7 @@ Chatmail aims to comprehensively modernize the e-mail system to become fast, rel
 
 It involves two key complementary project areas: 
 
-- [chatmail server](https://github.com/chatmail/server) is the main template to deploy a minimal and 
+- [chatmail relay](https://github.com/chatmail/relay) is the main template to deploy a minimal and 
   fast e-mail server providing instant onboarding and cryptographically secured interoperability. 
 
 - [chatmail core Rust library](https://github.com/chatmail/core) serves 
